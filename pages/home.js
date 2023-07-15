@@ -1,4 +1,4 @@
-import { register, render } from "https://cdn.jsdelivr.net/gh/discovery-solutions/react/dist/index.es.js";
+import { register, render, useState, useEffect } from "https://cdn.jsdelivr.net/gh/discovery-solutions/react/dist/index.es.js";
 
 const POSTS_API = "https://jsonplaceholder.typicode.com/posts";
 
