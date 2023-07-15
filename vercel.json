@@ -1,6 +1,8 @@
 {
   "version": 2,
   "routes": [
+    { "src": "/pages/(.*)", "dest": "/pages/$1" },
+    { "src": "/(.*).(js|css)", "dest": "/$1.$2" },
     { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
