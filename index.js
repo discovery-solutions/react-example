@@ -1,4 +1,4 @@
-import { register, render } from "https://cdn.jsdelivr.net/gh/discovery-solutions/react@master/dist/index.es.js?v=1";
+import { register, render } from "https://cdn.jsdelivr.net/gh/discovery-solutions/react@latest/dist/index.es.js?v=4";
 import "/pages/about.js";
 import "/pages/home.js";
 
